@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-mesera/static/css/main.df79d967.css",
-    "main.js": "/react-mesera/static/js/main.a9cef3bd.js",
+    "main.css": "/react-mesera/static/css/main.9b1a92f1.css",
+    "main.js": "/react-mesera/static/js/main.700e1b24.js",
     "static/js/787.efb369e6.chunk.js": "/react-mesera/static/js/787.efb369e6.chunk.js",
     "static/media/main-bg.png": "/react-mesera/static/media/main-bg.14958484772aa6cf113a.png",
     "static/media/main-lake.png": "/react-mesera/static/media/main-lake.4a2e4e9f8c262f033cb0.png",
@@ -17,12 +17,12 @@
     "static/media/footer-inst.png": "/react-mesera/static/media/footer-inst.34fd3d977f93d983ce2e.png",
     "static/media/footer-vk.png": "/react-mesera/static/media/footer-vk.f16905936cbc4470cc0d.png",
     "index.html": "/react-mesera/index.html",
-    "main.df79d967.css.map": "/react-mesera/static/css/main.df79d967.css.map",
-    "main.a9cef3bd.js.map": "/react-mesera/static/js/main.a9cef3bd.js.map",
+    "main.9b1a92f1.css.map": "/react-mesera/static/css/main.9b1a92f1.css.map",
+    "main.700e1b24.js.map": "/react-mesera/static/js/main.700e1b24.js.map",
     "787.efb369e6.chunk.js.map": "/react-mesera/static/js/787.efb369e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df79d967.css",
-    "static/js/main.a9cef3bd.js"
+    "static/css/main.9b1a92f1.css",
+    "static/js/main.700e1b24.js"
   ]
 }
