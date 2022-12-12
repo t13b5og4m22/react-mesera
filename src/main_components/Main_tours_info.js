@@ -21,7 +21,6 @@ function Main_tours_info() {
           <h2>Здесь вы можете ознакомиться со всеми возможными турами</h2>
         </div>
         <div className='tours__table'>
-
           <div className='tours__table-element'>
             <div className='tours__table-element__title'>
               <p>SUP прогулки "Акватории Москвы"</p>
