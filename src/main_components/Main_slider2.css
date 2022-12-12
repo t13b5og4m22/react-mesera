@@ -1,0 +1,93 @@
+.Main_slider2 {
+    height: 60vh;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.Main_slider2 .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.Main_slider2 .container::-webkit-scrollbar {
+    display: none;
+}
+
+.Main_slider2 .container .container__slide {
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 36px;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    background-size: cover!important;
+}
+
+.Main_slider2 .container .container__slide p {
+    font-family: 'Vela Sans';
+    font-size: 60px;
+    text-align: center;
+    line-height: 54px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.Main_slider2 .container .container__slide p:first-letter {
+    font-family: 'druzhok';
+}
+
+.Main_slider2 .container .container__slide a {
+    font-family: 'Vela Sans';
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 18px 50px;
+    background: #000000;
+}
+
+.Main_slider2 .container .container__slide1 {
+    background: url('../house1.png');
+}
+
+.Main_slider2 .container .container__slide2 {
+    background: url('../house2.png');
+}
+
+.Main_slider2 .container .container__slide3 {
+    background: url('../house1.png');
+}
+
+.Main_slider2 .container .container__slide4 {
+    background: url('../house2.png');
+}
+
+.Main_slider2 .container .container__slide5 {
+    background: url('../house1.png');
+}
+
+.Main_slider2 .container .container__slide6 {
+    background: url('../house2.png');
+}
+
+.Main_slider2 .container .container__slide7 {
+    background: url('../house1.png');
+}
+
+@media screen and (max-width: 1920px) {
+    .Main_slider2 .container .container__slide p {
+        font-size: 40px;
+        line-height: 36px;
+        font-weight: 400;
+    }
+    .Main_slider2 .container .container__slide a {
+        font-size: 16px;
+    }
+}

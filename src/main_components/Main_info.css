@@ -1,0 +1,130 @@
+.Main_info {
+    font-family: 'Vela Sans';
+    font-size: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+
+.Main_info p {
+    line-height: 50px;
+}
+
+.Main_info p span {
+    opacity: 0.4;
+}
+
+.Main_info .numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Main_info .numbersSm {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Main_info .numbers .numbers__element  {
+    border-top: 2px solid rgba(0,0,0,0.3);
+    border-left: 2px solid rgba(0,0,0,0.3);
+    width: 25%;
+    padding: 36px 60px 150px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.Main_info .numbersSm .numbers__elementSm  {
+    border-top: 2px solid rgba(0,0,0,0.3);
+    border-left: 2px solid rgba(0,0,0,0.3);
+    width: 25%;
+    padding: 36px 60px 150px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.Main_info .numbers .numbers__element:first-child {
+    border-left: none;
+}
+
+.Main_info .numbersSm .numbers__elementSm:first-child {
+    border-left: none;
+}
+
+.Main_info .numbers .numbers__element h3 {
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.Main_info .numbers .numbers__element p {
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Main_info .numbersSm .numbers__elementSm h3 {
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.Main_info .numbersSm .numbers__elementSm p {
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1920px) {
+    .Main_info p {
+        font-size: 40px;
+    }
+    .Main_info .numbers .numbers__element h3 {
+        font-size: 60px;
+    }
+    .Main_info .numbers .numbers__element p {
+        font-size: 16px;
+    }
+    .Main_info .numbers .numbers__element {
+        padding: 20px 60px 80px 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .Main_info .numbers {
+        display: none;
+    }
+    .Main_info {
+        padding: 0px 16px;
+        margin-bottom: 36px;
+        gap: 32px;
+    }
+    .Main_info p {
+        font-size: 34px;
+        line-height: 106%;
+    }
+    .Main_info .numbersSm {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        gap: 32px;
+    }
+    .Main_info .numbersSm .numbersSm__row {
+        display: flex;
+        width: 100%;
+    }
+    .Main_info .numbersSm .numbersSm__row .numbers__elementSm {
+        border: none;
+        padding: 0;
+        width: 50%;
+    }
+    .Main_info .numbersSm .numbersSm__row .numbers__elementSm h3 {
+        font-size: 42px;
+    }
+    .Main_info .numbersSm .numbersSm__row .numbers__elementSm p {
+        font-size: 18px;
+    }
+}

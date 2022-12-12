@@ -1,0 +1,74 @@
+.Startscreen {
+    height: 100vh;
+    background: url('../main-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Startscreen .content {
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Startscreen .content p {
+    font-size: 90px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Vela Sans';
+    font-weight: 400;
+    line-height: 90%;
+}
+
+.Startscreen .content p::first-letter {
+    font-family: 'druzhok';
+}
+
+.Startscreen .content a {
+    font-family: 'Vela Sans';
+    color: #000000;
+    padding: 15px 25px;
+    background: #ffffff;
+    border-radius: 35px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.empty_block {
+    height: 170px;
+}
+
+
+@media screen and (max-width: 1920px) {
+    .Startscreen .content {
+        width: 75%;
+    }
+    .Startscreen .content p {
+        font-size: 60px;
+    }
+    .Startscreen .content a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .Startscreen .content p {
+        font-size: 34px;
+    }
+    .Startscreen .content {
+        width: 95%;
+        gap: 30px;
+    }
+    .empty_block {
+        height: 30px;
+    }
+}

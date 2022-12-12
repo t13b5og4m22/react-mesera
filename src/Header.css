@@ -1,0 +1,45 @@
+.Header {
+    font-family: 'Vela Sans';
+    display: flex;
+    justify-content: center;
+    padding: 48px 0px;
+}
+
+.Header .wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Header .wrapper a {
+    font-size: 26px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Header .wrapper a img {
+    width: 96px;
+}
+
+
+@media screen and (max-width: 1920px) {
+    .Header {
+        padding: 36px 0px;
+    }
+    .Header .wrapper {
+        gap: 20px;
+    }
+    .Header .wrapper a {
+        font-size: 16px;
+    }
+    .Header .wrapper a img {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .Header {
+        display: none;
+    }
+}

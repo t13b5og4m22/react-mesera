@@ -1,0 +1,62 @@
+.Main_homes_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Vela Sans';
+    gap: 25px;
+    margin: 0px 24px 70px 24px;
+}
+
+.Main_homes_info img {
+    width: 32px;
+    height: 32px;
+}
+
+.Main_homes_info .homes__title {
+    font-size: 54px;
+}
+
+.Main_homes_info .homes__title:first-letter {
+    font-family: 'druzhok';
+}
+
+.Main_homes_info .homes__table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Main_homes_info .homes__table .homes__table_element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #B7B7B7;
+}
+
+.Main_homes_info .homes__table .homes__table_element:first-child {
+    border-top: 1px solid #B7B7B7;
+}
+
+.Main_homes_info .homes__table .homes__table_element .homes__table_element__title p {
+    font-size: 18px;
+}
+
+.Main_homes_info .homes__table .homes__table_element .homes__table_element__info {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+.Main_homes_info .homes__table .homes__table_element .homes__table_element__info .info__element {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.Main_homes_info .homes__table .homes__table_element .homes__table_element__info .info__element p {
+    font-size: 18px;
+}

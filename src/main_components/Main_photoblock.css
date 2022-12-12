@@ -1,0 +1,13 @@
+.Main_photoblock {
+    height: 60vh;
+    background: url('../main-lake.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 576px) {
+    .Main_photoblock {
+        height: 360px;
+    }
+}

@@ -1,0 +1,57 @@
+.Main_info2 {
+    font-family: 'Vela Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.Main_info2 .container {
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Main_info2 .container h3 {
+    line-height: 90%;
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.Main_info2 .container p {
+    color: rgba(0,0,0,0.5);
+    font-size: 26px;
+}
+
+.Main_info2 .container h3:first-letter {
+    font-family: 'druzhok';
+}
+
+.Main_info2 .container .star {
+    width: 90px;
+    height: 90px;
+}
+
+.Main_info2 .container .star2 {
+    position: absolute;
+    top: -40px;
+    left: -20px;
+}
+
+.Main_info2 .container .star1 {
+    position: absolute;
+    bottom: 40px;
+    right: -40px;
+}
+
+@media screen and (max-width: 1920px) {
+    .Main_info2 .container h3 {
+        font-size: 60px;
+    }
+    .Main_info2 .container p {
+        font-size: 16px;
+    }
+}

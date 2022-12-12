@@ -1,0 +1,8 @@
+.Main_photoblock2 {
+    height: 60vh;
+    background: url('../winter.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}

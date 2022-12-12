@@ -1,0 +1,91 @@
+.Footer {
+    font-family: 'Vela Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.Footer .Footer__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footer .Footer__logo .Footer__logo_img img {
+    height: 50px;
+    margin: 0px 10px;
+    opacity: 0.5;
+}
+
+.Footer .Footer__logo .Footer__logo_line {
+    height: 1px;
+    flex-grow: 1;
+    background: #000000;
+}
+
+.Footer .Footer__nav {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.Footer .Footer__nav a {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.Footer .Footer__phone {
+    font-size: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Footer .Footer__info {
+    padding: 0px 24px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 16px;
+    align-items: center;
+}
+
+.Footer .Footer__info p {
+    opacity: 0.5;
+}
+
+
+.Footer .Footer__info .info__cards-icos {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    width: 20%;
+    justify-content: right;
+}
+
+.Footer .Footer__info .info__cards-icos img {
+    height: 24px;
+}
+
+.Footer .Footer__info .info__cards-icos img:first-child {
+    height: 36px;
+}
+
+.Footer .Footer__info .info__media-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 20%;
+}
+
+.Footer .Footer__info .info__media-btns img {
+    width: 32px;
+    height: 32px;
+}
