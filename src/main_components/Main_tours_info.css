@@ -87,3 +87,9 @@
         padding-top: 0;
     }
 }
+
+@media screen and (max-width: 1280px) {
+    .Main_tours_info .tours__title {
+        width: 80%;
+    }
+}
