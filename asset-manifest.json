@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-mesera/static/css/main.85522960.css",
+    "main.js": "/react-mesera/static/js/main.bae701ab.js",
+    "static/js/787.efb369e6.chunk.js": "/react-mesera/static/js/787.efb369e6.chunk.js",
+    "static/media/main-bg.png": "/react-mesera/static/media/main-bg.14958484772aa6cf113a.png",
+    "static/media/main-lake.png": "/react-mesera/static/media/main-lake.4a2e4e9f8c262f033cb0.png",
+    "static/media/winter.jpg": "/react-mesera/static/media/winter.b3d104e6604437e6c91a.jpg",
+    "static/media/slide2.png": "/react-mesera/static/media/slide2.08dc8fbce3087cd404ef.png",
+    "static/media/house1.png": "/react-mesera/static/media/house1.600ee9a6052f0e25ef4f.png",
+    "static/media/house2.png": "/react-mesera/static/media/house2.67ba2e42df8df63749af.png",
+    "static/media/slide1.png": "/react-mesera/static/media/slide1.9dba8f856d49480386eb.png",
+    "static/media/mesera-logo.svg": "/react-mesera/static/media/mesera-logo.d9ab32a58d268ffdd12feadea57df6c6.svg",
+    "static/media/VelaSans-Regular.ttf": "/react-mesera/static/media/VelaSans-Regular.17f9877bf4bb6cf4bfbc.ttf",
+    "static/media/logo-footer.png": "/react-mesera/static/media/logo-footer.cf9a4641bed20ec2e45b.png",
+    "static/media/DRUZHOK.otf": "/react-mesera/static/media/DRUZHOK.0f79543349325735930a.otf",
+    "static/media/footer-inst.png": "/react-mesera/static/media/footer-inst.34fd3d977f93d983ce2e.png",
+    "static/media/footer-vk.png": "/react-mesera/static/media/footer-vk.f16905936cbc4470cc0d.png",
+    "index.html": "/react-mesera/index.html",
+    "main.85522960.css.map": "/react-mesera/static/css/main.85522960.css.map",
+    "main.bae701ab.js.map": "/react-mesera/static/js/main.bae701ab.js.map",
+    "787.efb369e6.chunk.js.map": "/react-mesera/static/js/787.efb369e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85522960.css",
+    "static/js/main.bae701ab.js"
+  ]
+}
