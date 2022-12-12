@@ -70,4 +70,20 @@
     width: 15%;
     text-align: right;
     font-size: 26px;
-} 
+}  
+
+@media screen and (max-width: 576px) {
+    .Main_tours_info .tours__title {
+        width: 90%;
+    }
+    .Main_tours_info .tours__title h2 {
+        font-size: 34px;
+        line-height: 100%;
+    }
+    .Main_tours_info .tours__table {
+        display: none;
+    }
+    .Main_tours_info {
+        padding-top: 0;
+    }
+}

@@ -8,11 +8,14 @@
 }
 
 .Main_info2 .container {
-    position: relative;
     width: 70%;
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+.Main_info2 .container .container__title {
+    position: relative;
 }
 
 .Main_info2 .container h3 {
@@ -37,14 +40,14 @@
 
 .Main_info2 .container .star2 {
     position: absolute;
-    top: -40px;
-    left: -20px;
+    top: -60px;
+    left: 0px;
 }
 
 .Main_info2 .container .star1 {
     position: absolute;
-    bottom: 40px;
-    right: -40px;
+    bottom: -40px;
+    right: 0px;
 }
 
 @media screen and (max-width: 1920px) {
@@ -53,5 +56,32 @@
     }
     .Main_info2 .container p {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .Main_info2 {
+        height: auto;
+        padding-top: 250px;
+        padding-bottom: 30px;
+    }
+    .Main_info2 .container {
+        gap: 170px;
+    }
+    .Main_info2 .container h3 {
+        font-size: 34px;
+        line-height: 30px;
+    }
+    .Main_info2 .container .star1 {
+        width: 35px;
+        height: 35px;
+    }
+    .Main_info2 .container .star2 {
+        width: 35px;
+        height: 35px;
+        top: -30px;
+    }
+    .Main_info2 .container p {
+        font-size: 20px;
     }
 }
