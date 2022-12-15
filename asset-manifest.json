@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-mesera/static/css/main.9b1a92f1.css",
-    "main.js": "/react-mesera/static/js/main.700e1b24.js",
+    "main.css": "/react-mesera/static/css/main.67fe2cdf.css",
+    "main.js": "/react-mesera/static/js/main.de0ff20b.js",
     "static/js/787.efb369e6.chunk.js": "/react-mesera/static/js/787.efb369e6.chunk.js",
     "static/media/main-bg.png": "/react-mesera/static/media/main-bg.14958484772aa6cf113a.png",
     "static/media/main-lake.png": "/react-mesera/static/media/main-lake.4a2e4e9f8c262f033cb0.png",
@@ -11,18 +11,19 @@
     "static/media/house2.png": "/react-mesera/static/media/house2.67ba2e42df8df63749af.png",
     "static/media/slide1.png": "/react-mesera/static/media/slide1.9dba8f856d49480386eb.png",
     "static/media/mesera-logo.svg": "/react-mesera/static/media/mesera-logo.d9ab32a58d268ffdd12feadea57df6c6.svg",
+    "static/media/tours_map.png": "/react-mesera/static/media/tours_map.4dfdb324bd61de472cc8.png",
     "static/media/VelaSans-Regular.ttf": "/react-mesera/static/media/VelaSans-Regular.17f9877bf4bb6cf4bfbc.ttf",
     "static/media/logo-footer.png": "/react-mesera/static/media/logo-footer.cf9a4641bed20ec2e45b.png",
     "static/media/DRUZHOK.otf": "/react-mesera/static/media/DRUZHOK.0f79543349325735930a.otf",
     "static/media/footer-inst.png": "/react-mesera/static/media/footer-inst.34fd3d977f93d983ce2e.png",
     "static/media/footer-vk.png": "/react-mesera/static/media/footer-vk.f16905936cbc4470cc0d.png",
     "index.html": "/react-mesera/index.html",
-    "main.9b1a92f1.css.map": "/react-mesera/static/css/main.9b1a92f1.css.map",
-    "main.700e1b24.js.map": "/react-mesera/static/js/main.700e1b24.js.map",
+    "main.67fe2cdf.css.map": "/react-mesera/static/css/main.67fe2cdf.css.map",
+    "main.de0ff20b.js.map": "/react-mesera/static/js/main.de0ff20b.js.map",
     "787.efb369e6.chunk.js.map": "/react-mesera/static/js/787.efb369e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b1a92f1.css",
-    "static/js/main.700e1b24.js"
+    "static/css/main.67fe2cdf.css",
+    "static/js/main.de0ff20b.js"
   ]
 }
