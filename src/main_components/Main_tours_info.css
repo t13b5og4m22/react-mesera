@@ -2,6 +2,10 @@
     display: none;
 }
 
+.opacity_50 {
+    opacity: 0.5;
+}
+
 .Main_tours_info {
     display: flex;
     flex-direction: column;
@@ -124,7 +128,6 @@ a {
 .sm_tours__table .sm_table__head p {
     font-size: 20px;
     color: #000000;
-    opacity: 0.5;
 }
 
 .sm_tours__table .sm_table__content {

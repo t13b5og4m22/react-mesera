@@ -88,7 +88,7 @@ function Main_tours_info() {
           {tours.map((sm_item, i) => 
             <div className={true ? 'sm_tours__table_element' : 'display_none'}>
               <div className='sm_table__head' onClick={() => toggle(i)}>
-                <p>{sm_item.title}</p>
+                <p className={selected == i ? 'opacity_50' : ''}>{sm_item.title}</p>
                 <p>+</p>
               </div>
               <div className={selected == i ? 'sm_table__content' : 'display_none'}>
