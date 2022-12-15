@@ -66,6 +66,10 @@
     margin-left: 100px;
 }
 
+.Main_tours_info .tours__table .tours__table-element .tours__table-element__info p {
+    opacity: 0.5;
+}
+
 .Main_tours_info .tours__table .tours__table-element .tours__table-element__price {
     width: 15%;
     text-align: right;

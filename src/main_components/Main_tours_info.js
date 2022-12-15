@@ -14,6 +14,44 @@ function One_star_block() {
   );
 }
 
+const tours = [
+  {
+    title: 'SUP прогулки "Акватории Москвы"',
+    text: 'Москва-река, Большой Строгинский зат., Химкинское вдхр.',
+    price: '1 500 ₽',
+  },
+  {
+    title: 'SUP прогулки "Реки Подмосковья"',
+    text: 'Москва-река, Истра, Шерна, Десна.',
+    price: '1 500 ₽',
+  },
+  {
+    title: 'Тур "Большая Пра',
+    text: 'д. Калдево (Рязанская обл.) – д. Заводская Слобода (Рязанская обл.)',
+    price: '5000 ₽',
+  },
+  {
+    title: 'Тур "Верхняя Пра – лайт"',
+    text: 'пос. Мещерский Бор (Московская обл.) – д. Стружаны (Рязанская обл.)',
+    price: '4000 ₽',
+  },
+  {
+    title: 'Тур "Верхняя Пра"',
+    text: 'пос. Мещерский Бор (Московская обл.) – д. Калдево (Рязанская обл)',
+    price: '5000 ₽',
+  },
+  {
+    title: 'Тур “Новогодний”',
+    text: 'пос. Мещерский Бор (Московская обл.) – д. Стружаны (Рязанская обл.)',
+    price: '4000 ₽',
+  },
+  {
+    title: 'Тур “Зимние выходные”',
+    text: 'пос. Мещерский Бор (Московская обл.) – д. Калдево (Рязанская обл)',
+    price: '5000 ₽',
+  },
+]
+
 function Main_tours_info() {
   return (
     <div className="Main_tours_info">
@@ -21,97 +59,20 @@ function Main_tours_info() {
           <h2>Здесь вы можете ознакомиться со всеми возможными турами</h2>
         </div>
         <div className='tours__table'>
-          <div className='tours__table-element'>
-            <div className='tours__table-element__title'>
-              <p>SUP прогулки "Акватории Москвы"</p>
+          {tours.map((item) => 
+            <div className='tours__table-element'>
+              <div className='tours__table-element__title'>
+                <p>{item.title}</p>
+              </div>
+              <div className='tours__table-element__info'>
+                <One_star_block/>
+                <p>{item.text}</p>
+              </div>
+              <div className='tours__table-element__price'>
+                <p>{item.price}</p>
+              </div>
             </div>
-            <div className='tours__table-element__info'>
-              <One_star_block/>
-              <p>Москва-река, Большой Строгинский зат., Химкинское вдхр.</p>
-            </div>
-            <div className='tours__table-element__price'>
-              <p>1 500 ₽</p>
-            </div>
-          </div> 
-
-          <div className='tours__table-element'>
-            <div className='tours__table-element__title'>
-              <p>SUP прогулки "Реки Подмосковья"</p>
-            </div>
-            <div className='tours__table-element__info'>
-              <One_star_block/>
-              <p>Москва-река, Истра, Шерна, Десна.</p>
-            </div>
-            <div className='tours__table-element__price'>
-              <p>3 500 ₽</p>
-            </div>
-          </div>
-
-          <div className='tours__table-element'>
-            <div className='tours__table-element__title'>
-              <p>Тур "Большая Пра"</p>
-            </div>
-            <div className='tours__table-element__info'>
-              <One_star_block/>
-              <p>д. Калдево (Рязанская обл.) – д. Заводская Слобода (Рязанская обл.)</p>
-            </div>
-            <div className='tours__table-element__price'>
-              <p>5 000 ₽</p>
-            </div>
-          </div>
-
-          <div className='tours__table-element'>
-            <div className='tours__table-element__title'>
-              <p>Тур "Верхняя Пра – лайт"</p>
-            </div>
-            <div className='tours__table-element__info'>
-              <One_star_block/>
-              <p>пос. Мещерский Бор (Московская обл.) – д. Стружаны (Рязанская обл.)</p>
-            </div>
-            <div className='tours__table-element__price'>
-              <p>4 000 ₽</p>
-            </div>
-          </div>
-
-          <div className='tours__table-element'>
-            <div className='tours__table-element__title'>
-              <p>Тур "Верхняя Пра"</p>
-            </div>
-            <div className='tours__table-element__info'>
-              <One_star_block/>
-              <p>пос. Мещерский Бор (Московская обл.) – д. Калдево (Рязанская обл)</p>
-            </div>
-            <div className='tours__table-element__price'>
-              <p>5 000 ₽</p>
-            </div>
-          </div>
-
-          <div className='tours__table-element'>
-            <div className='tours__table-element__title'>
-              <p>Тур “Новогодний”</p>
-            </div>
-            <div className='tours__table-element__info'>
-              <One_star_block/>
-              <p>пос. Мещерский Бор (Московская обл.) – д. Стружаны (Рязанская обл.)</p>
-            </div>
-            <div className='tours__table-element__price'>
-              <p>4 000 ₽</p>
-            </div>
-          </div>
-
-          <div className='tours__table-element'>
-            <div className='tours__table-element__title'>
-              <p>Тур “Зимние выходные”</p>
-            </div>
-            <div className='tours__table-element__info'>
-              <One_star_block/>
-              <p>пос. Мещерский Бор (Московская обл.) – д. Калдево (Рязанская обл)</p>
-            </div>
-            <div className='tours__table-element__price'>
-              <p>5 000 ₽</p>
-            </div>
-          </div>
-              
+          )}
         </div>
     </div>
   );
