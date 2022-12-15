@@ -1,8 +1,8 @@
 import './Main_tours_info.css';
 import starBlack from '../star_black.png';
 import starGrey from '../star_grey.png';
-
-
+import map1 from '../tours_map.png';
+import { useState } from 'react';
 
 function One_star_block() {
   return (
@@ -53,6 +53,16 @@ const tours = [
 ]
 
 function Main_tours_info() {
+  const [selected, setSelected] = useState(null)
+
+  const toggle = (i) => {
+    if (selected == i) {
+      return setSelected(null)
+    }
+
+    setSelected(i)
+  }
+
   return (
     <div className="Main_tours_info">
         <div className='tours__title'>
@@ -70,6 +80,24 @@ function Main_tours_info() {
               </div>
               <div className='tours__table-element__price'>
                 <p>{item.price}</p>
+              </div>
+            </div>
+          )}
+        </div>
+        <div className='sm_tours__table'>
+          {tours.map((sm_item, i) => 
+            <div className={true ? 'sm_tours__table_element' : 'display_none'}>
+              <div className='sm_table__head' onClick={() => toggle(i)}>
+                <p>{sm_item.title}</p>
+                <p>+</p>
+              </div>
+              <div className={selected == i ? 'sm_table__content' : 'display_none'}>
+                <img src={map1} />
+                <div className='sm_table__content_info'>
+                  <p>{sm_item.text}</p>
+                  <h3>{sm_item.price}</h3>
+                </div> 
+                  <a href="#"><div className='sm_table__content_button'>Подробнее</div></a>
               </div>
             </div>
           )}
