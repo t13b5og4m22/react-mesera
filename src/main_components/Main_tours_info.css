@@ -104,7 +104,7 @@ a {
     }
     
     .sm_tours__table {
-        display: flex;
+        display: flex!important;
         flex-direction: column;
     }
 }
@@ -119,7 +119,6 @@ a {
     display: none;
     padding: 0 16px;
     width: 95%;
-    background: red;
 }
 
 .sm_tours__table .sm_table__head {
